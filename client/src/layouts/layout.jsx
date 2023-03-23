@@ -6,8 +6,8 @@ import Navigation from "../components/navigation";
 export default function Layout() {
   return (
     <>
-      <Header />
       <Navigation />
+      <Header />
       <Outlet />
       <Footer />
     </>
