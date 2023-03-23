@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AuthContext from "./contexts/auth";
 import Layout from "./layouts/layout";
 import { About, Login } from "./pages";
 
@@ -14,9 +13,5 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  return (
-    <AuthContext.Provider value="">
-      <RouterProvider router={router} />
-    </AuthContext.Provider>
-  );
+  return <RouterProvider router={router} />;
 }

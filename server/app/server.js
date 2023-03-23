@@ -6,7 +6,7 @@ import express from "express";
 import http from "http";
 import config from "./config.js";
 import { resolvers, typeDefs } from "./graphql/index.js";
-import { decodeToken } from "./middleware.js";
+import decodeToken from "./middleware/decode-token.js";
 
 const { port } = config;
 

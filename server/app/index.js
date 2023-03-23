@@ -1,4 +1,4 @@
-import initConn from "./db-conn.js";
+import initConn from "./db-client.js";
 import initServer from "./server.js";
 
 initConn();
