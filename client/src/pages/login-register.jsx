@@ -5,11 +5,11 @@ export default function LoginRegister() {
   const [isRegistering, setIsRegistering] = useState(false);
 
   return (
-    <>
+    <main>
       <h2 className="text-center">
         {isRegistering ? "Register a New Account" : "Login 2 Ur Account"}
       </h2>
-      <form className="my-4 flex flex-col items-center gap-y-2 px-4">
+      <form className="flex flex-col items-center gap-y-2 px-4">
         <Input
           type="text"
           label="Username"
@@ -40,6 +40,6 @@ export default function LoginRegister() {
           {isRegistering ? "Already have an account?" : "Need to register?"}
         </button>
       </form>
-    </>
+    </main>
   );
 }

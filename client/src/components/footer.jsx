@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-center">
+    <footer className="mt-4 text-center">
       <p>© {new Date().getFullYear()} - All Rights Reserved</p>
     </footer>
   );

@@ -7,7 +7,7 @@
     @apply bg-gray-900 text-gray-50;
   }
   h2 {
-    @apply text-2xl;
+    @apply my-2 text-2xl;
   }
 
   input {
