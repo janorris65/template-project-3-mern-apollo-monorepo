@@ -26,6 +26,10 @@ It should be protected from force pushes and deletions. It should also require a
 
 It might be good time to have [this](https://github.com/ryanmcdermott/clean-code-javascript) open and see how much of this you can apply.
 
+## Getting Started
+
+You probably want to work on `server` and `client` separately, and then you can start them together with `npm run dev` from the root for development.
+
 ## Questions❔
 
 Ask sooner rather than later!
