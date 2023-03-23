@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AuthContext from "./contexts/auth";
 import Layout from "./layouts/layout";
 import { About, Login } from "./pages";
 
@@ -13,5 +14,10 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  return <RouterProvider router={router} />;
+  return (
+    // TODO: Add a value using Apollo Client's useQuery hook
+    <AuthContext.Provider>
+      <RouterProvider router={router} />
+    </AuthContext.Provider>
+  );
 }
