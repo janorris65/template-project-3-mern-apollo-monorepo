@@ -28,6 +28,10 @@ The example code is just to give you some clue on how to think in React and to g
 
 As TS is not an option for us, our linting will enforce the use of PropTypes. This is a good thing as it will help us catch bugs early on. It will also help us document our code. It's a gateway drug 💊 to TS.
 
+## 🚀 Getting Started
+
+`npm run dev` - Starts the development server.
+
 ---
 
 - [Apollo Client](https://www.apollographql.com/docs/react#recommended-docs)

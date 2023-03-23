@@ -50,3 +50,7 @@ Your front-end developer and database admin should coordinate on what data you n
 Remember that MongoDB is more nuanced than traditional relational databases. Beware of schema design anti-patterns such as **unbounded arrays.**
 
 The front-end developer and database admin should take time to review [this](https://www.youtube.com/watch?v=DUCvYbcgGsQ).
+
+## Getting Started
+
+`npm run dev` - Starts the server in development mode.
