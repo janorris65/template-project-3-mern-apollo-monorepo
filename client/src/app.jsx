@@ -15,7 +15,6 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
-    // TODO: Add a value using Apollo Client's useQuery hook (use {} for INTERPOLATION)
     <AuthContext.Provider value="">
       <RouterProvider router={router} />
     </AuthContext.Provider>
